@@ -1,0 +1,45 @@
+<nav class="flex items-center justify-between max-w-3xl p-4 mx-auto">
+    <button routerLink="/dashboard" class="inline-flex mt-5 text-white bg-gray-500 border-0 py-1 px-8 focus:outline-none hover:bg-gray-600 rounded text-lg">
+        <i class="mr-2 pt-1">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.854 6.646a.5.5 0 010 .708L5.207 10l2.647 2.646a.5.5 0 01-.708.708l-3-3a.5.5 0 010-.708l3-3a.5.5 0 01.708 0z" clip-rule="evenodd"/><path fill-rule="evenodd" d="M4.5 10a.5.5 0 01.5-.5h10.5a.5.5 0 010 1H5a.5.5 0 01-.5-.5z" clip-rule="evenodd"/></svg>
+        </i>
+        Back
+    </button>
+  
+    <ul class="flex items-center space-x-2 text-sm font-medium text-gray-500 pt-5">
+      <li>
+        <span class="text-xl inline-flex items-center rounded-lg">
+            Settings
+            <i class="ml-2 pt-1">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.405 3.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 01-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 01.872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 012.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 012.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 01.872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 01-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 01-2.105-.872l-.1-.34zM10 12.93a2.929 2.929 0 100-5.858 2.929 2.929 0 000 5.858z" clip-rule="evenodd"/></svg>
+            </i>
+        </span>
+      </li>
+    </ul>
+  </nav>
+<hr />
+<br />
+<h2 class="text-2xl">
+    Account
+</h2>
+<br />
+<div class="md:mx-20">
+    <form>
+        <div class="px-5 mb-5">
+            <label for="nickname" class="sr-only">Nickname</label>
+
+            <input
+                type="text"
+                class="w-full p-4 pr-12 text-sm border-gray-400 rounded-lg shadow-md focus:shadow-sm"
+                placeholder="Nickname" id="nickname" name="nickname" value="" />
+        </div>
+        <div class="px-5 mb-5">
+            <label for="email" class="sr-only">Email</label>
+
+            <input
+                type="email"
+                class="w-full p-4 pr-12 text-sm border-gray-400 rounded-lg shadow-md focus:shadow-sm"
+                placeholder="Nickname" />
+        </div>
+    </form>
+</div>
