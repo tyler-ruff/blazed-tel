@@ -1,3 +1,12 @@
-.is-active{
-    text-decoration: underline;
+.nav-mobile, .nav-burger {
+    display:none;
+}
+@media only screen and (max-width: 767px){
+    .nav-desktop{
+        display:none;
+    }
+    .nav-mobile, .nav-burger{
+        display: block;
+    }
+
 }

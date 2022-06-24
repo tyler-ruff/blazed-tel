@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "blazed-telecom": {
+      "hosting": {
+        "fire": [
+          "blazed-telecom"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "blazed-telecom"
+  }
+}
