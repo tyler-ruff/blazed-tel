@@ -1,49 +1,27 @@
-<section class="text-gray-600 body-font relative px-3">
-    <div class="container py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-12">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-            Submit Support Ticket
-        </h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Problems with our service? We're here to help.
-        </p>
-      </div>
-      <form method="post" action="https://formspree.io/f/xqkngedz">
-            <div class="lg:w-1/2 md:w-2/3 mx-auto">
-                <div class="flex flex-wrap -m-2">
-                <div class="p-2 w-1/2">
-                    <div class="relative">
-                    <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
-                    <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                    </div>
-                </div>
-                <div class="p-2 w-1/2">
-                    <div class="relative">
-                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
-                    <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                    </div>
-                </div>
-                <div class="p-2 w-full">
-                    <div class="relative">
-                    <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
-                    <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                    </div>
-                </div>
-                <div class="p-2 w-full">
-                    <input type="submit" value="Submit" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" />
-                </div>
-                    <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                        <a href="mailto:support@blazed.tel" class="text-indigo-500">
-                            support@blazed.tel
-                        </a>
-                        <p class="leading-normal my-5">
-                            <a href="tel:+19088679329" class="text-indigo-500">  
-                                +1(908) 867-9329
-                            </a>
-                        </p>
-                    </div>
-                </div>
+<article class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-20 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 text-gray-800">
+	<div class="flex flex-col justify-between pt-10">
+		<div class="space-y-2">
+			<h2 class="text-4xl font-bold leading-tight lg:text-5xl">
+                Having trouble?
+            </h2>
+			<div class="text-gray-600 pt-5">
+                We're here to help! Simply fill out the form, and a support representative will be in contact.
             </div>
-        </form>
-    </div>
-  </section>
+		</div>
+	</div>
+	<form method="post" action="https://formspree.io/f/xqkngedz" class="space-y-6 ng-untouched ng-pristine ng-valid pt-10">
+		<div>
+			<label for="name" class="text-sm">Full name</label>
+			<input id="name" required type="text" name="name" placeholder="" class="bg-white border mt-2 w-full p-3 rounded bg-gray-100">
+		</div>
+		<div>
+			<label for="email" class="text-sm">Email</label>
+			<input id="email" required type="email" name="_replyto" class="bg-white border mt-2 w-full p-3 rounded bg-gray-100">
+		</div>
+		<div>
+			<label for="message" class="text-sm">Message</label>
+			<textarea id="message" required rows="3" name="message" class="bg-white border mt-2 w-full p-3 rounded bg-gray-100"></textarea>
+		</div>
+		<button type="submit" class="w-full p-3 text-sm font-bold tracking-wide uppercase rounded bg-blue-600 text-gray-50">Send Message</button>
+	</form>
+</article>

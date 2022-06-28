@@ -10,7 +10,6 @@ html, body{
     overflow-x: hidden;
 } 
 
-
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -70,11 +69,11 @@ body::-webkit-scrollbar-thumb:hover{
 }
 
 ::selection{
-    background: #326da8;
-    color: #fff;
-}
-::-moz-selection{
-    background: #326da8;
+    background: #000;
     color: #fff;
 }
 
+::-moz-selection{
+    background: #000;
+    color: #fff;
+}

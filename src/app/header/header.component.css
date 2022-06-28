@@ -1,11 +1,12 @@
-.nav-mobile, .nav-burger {
+nav{
+    z-index:9999;
+}
+.nav-mobile {
     display:none;
 }
-@media only screen and (max-width: 767px){
-    .nav-desktop{
-        display:none;
-    }
-    .nav-mobile, .nav-burger{
+@media only screen and (max-width: 1023px){
+
+    .nav-mobile {
         display: block;
     }
 
