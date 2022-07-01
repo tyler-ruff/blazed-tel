@@ -30,4 +30,4 @@ Discover A New Telecom Provider.
 - [Fire Angular](https://github.com/blazed-space/fire-angular)
 - [AngularJS](https://angular.io/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Netlify](https://netlify.com/)
+- [Render](https://render.com/)
