@@ -12,6 +12,8 @@ import { LazyLoadDirective } from './lazyload.directive';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { SupportComponent } from './support/support.component';
+import { SuccessComponent } from './success/success.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,9 +22,11 @@ import { SupportComponent } from './support/support.component';
     HeaderComponent,
     FooterComponent,
     NavComponent,
+    HomeComponent,
     AboutComponent,
     ContactComponent,
-    SupportComponent
+    SupportComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,
