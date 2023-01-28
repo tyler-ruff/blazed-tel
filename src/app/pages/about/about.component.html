@@ -67,8 +67,8 @@
             </p>
 
             <div class="pt-3">
-                <a class="hover:underline" href="mailto:hello@blazed.tel">
-                    hello@blazed.tel
+                <a class="hover:underline" href="mailto:{{ app.email }}">
+                    {{ app.email }}
                 </a>
             </div>
 
@@ -80,7 +80,7 @@
                 </div>
 
                 <div class="inline-flex w-full mt-4 sm:w-auto sm:mx-2 sm:mt-0">
-                    <a href="tel:+18559764121" class="inline-flex items-center justify-center w-full px-5 py-2 text-gray-700 transition-colors duration-150 transform bg-white border border-gray-200 rounded-lg dark:bg-gray-900 dark:border-gray-700 hover:bg-gray-100 dark:text-white sm:w-auto dark:hover:bg-gray-800 dark:ring-gray-700 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
+                    <a href="tel:+{{ app.phone }}" class="inline-flex items-center justify-center w-full px-5 py-2 text-gray-700 transition-colors duration-150 transform bg-white border border-gray-200 rounded-lg dark:bg-gray-900 dark:border-gray-700 hover:bg-gray-100 dark:text-white sm:w-auto dark:hover:bg-gray-800 dark:ring-gray-700 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
                         Call Us
                     </a>
                 </div>

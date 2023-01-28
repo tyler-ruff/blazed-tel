@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Hind+Vadodara&display=swap');
+
 /* Import TailwindCSS */
 @tailwind base;
 @tailwind components;
@@ -76,4 +78,13 @@ body::-webkit-scrollbar-thumb:hover{
 ::-moz-selection{
     background: #000;
     color: #fff;
+}
+
+body { 
+    font-family: 'Hind Vadodara', sans-serif;
+    overflow: hidden;
+}
+
+h1, h3{
+    font-family: 'DM Serif Text', serif;
 }
