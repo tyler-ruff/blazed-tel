@@ -2,7 +2,7 @@ import { Config } from 'fire-ng/lib/interfaces/config';
 
 export const app = {
     title: "Blazed Telecom",
-    email: "hello@blazed.space",
+    email: "hello@blazed.tel",
     phone: "18559764121",
     theme: "#515152",
     company: "Blazed Labs LLC",
