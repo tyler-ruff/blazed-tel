@@ -1,4 +1,11 @@
 {
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
-  "recommendations": ["angular.ng-template"]
+	"recommendations": [
+		"astro-build.astro-vscode",
+		"bradlc.vscode-tailwindcss",
+		"austenc.tailwind-docs",
+		"esbenp.prettier-vscode",
+		"editorconfig.editorconfig",
+		"dbaeumer.vscode-eslint"
+	],
+	"unwantedRecommendations": []
 }
