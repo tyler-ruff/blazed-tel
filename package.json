@@ -1,5 +1,5 @@
 {
-	"name": "flowbite-astro-admin-dashboard",
+	"name": "blazed-tel",
 	"version": "1.0.2",
 	"private": "true",
 	"description": "A free and open-source admin dashboard template built with Tailwind CSS, Flowbite and Astro",
@@ -18,8 +18,8 @@
 		"javascript"
 	],
 	"homepage": "https://flowbite.com",
-	"bugs": "https://github.com/themesberg/flowbite-astro-admin-dashboard/issues",
-	"repository": "https://github.com/themesberg/flowbite-astro-admin-dashboard.git",
+	"bugs": "https://github.com/tyler-ruff/blazed-tel/issues",
+	"repository": "https://github.com/tyler-ruff/blazed-tel.git",
 	"license": "MIT",
 	"author": "Bergside Inc.",
 	"contributors": [
