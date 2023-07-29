@@ -1,297 +1,277 @@
-# [Flowbite Astro Admin Dashboard](https://themesberg.github.io/flowbite-astro-admin-dashboard/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fflowbite-astro-admin-dashboard&text=Check%20out%20this%20open-source%20admin%20dashboard%20built%20with%20Flowbite%2C%20Astro%20and%20Tailwind%20CSS)
+# 🚀 AstroWind
 
-<!-- NOTE: This is a Tailwind in MD experiment, to make it nice when rendered with Astro -->
-<div align="center" class="flex flex-wrap justify-evenly w-full">
-	<a href="https://github.com/themesberg/flowbite-astro-admin-dashboard"><img src="https://img.shields.io/badge/version-v1.0.2-blue" alt="version"></a>
-	<a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license"></a>
-	<a href="https://github.com/themesberg/flowbite-admin-dashboard/issues?q=is%3Aopen+is%3Aissue"><img src="https://img.shields.io/github/issues/themesberg/flowbite-astro-admin-dashboard.svg" alt="GitHub issues open"></a>
-	<a href="https://github.com/themesberg/flowbite-admin-dashboard/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed-raw/themesberg/flowbite-astro-admin-dashboard.svg" alt="GitHub issues closed"></a>
-</div>
+<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
+     alt="AstroWind Lighthouse Score" width="100" height="358">
 
-<a class="hidden" href="https://themesberg.github.io/flowbite-astro-admin-dashboard/"><img class="w-full rounded-md overflow-hidden" src="https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/flowbite-admin-dashboard-preview.png" alt="Flowbite Admin Dashboard Live Preview"></a>
+🌟 _Most *starred* & *forked* Astro theme in 2022_. 🌟
 
-This project is a free and open-source UI admin dashboard template built with the components from [Flowbite](https://github.com/themesberg/flowbite) and based on the utility-first [Tailwind CSS](https://github.com/tailwindlabs/tailwindcss) framework featuring charts, tables, widgets, CRUD layouts, modals, drawers, and more.
+**AstroWind** is a free and open-source template to make your website using **[Astro 2.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account web best practices.
 
-This admin dashboard can quickly help you get started building an application for your project using the newest UI/UX development technologies in the open-source area including Tailwind CSS and Flowbite.
+## Features
 
----
+- ✅ Integration with **Tailwind CSS** ([@astrojs/tailwind](https://docs.astro.build/en/guides/integrations-guide/tailwind/)) supporting **Dark mode**.
+- ✅ **Production-ready** scores in [Lighthouse](https://web.dev/measure/) and [PageSpeed Insights](https://pagespeed.web.dev/) reports.
+- ✅ **Fast and SEO friendly blog** with automatic **RSS feed** ([@astrojs/rss](https://docs.astro.build/en/guides/rss/)), [**MDX** support](https://docs.astro.build/en/guides/integrations-guide/mdx/), **Categories & Tags**, **Social Share**, ...
+- ✅ **Image optimization** ([@astrojs/images](https://docs.astro.build/en/guides/integrations-guide/image/)) and **Font optimization**.
+- ✅ Generation of **project sitemap** based on your routes ([@astrojs/sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/)).
+- ✅ **Open Graph tags** for social media sharing.
+- ✅ **Analytics** built-in Google Analytics, and Splitbee integration.
 
-<div align="center" class="flex flex-wrap justify-evenly w-full my-16">
-	<a href="https://stackblitz.com/github/themesberg/flowbite-astro-admin-dashboard"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt="Open in StackBlitz"></a>
-	<a href="https://codesandbox.io/p/github/themesberg/flowbite-astro-admin-dashboard/main"><img src="https://assets.codesandbox.io/github/button-edit-lime.svg" alt="Open with CodeSandbox"></a>
-</div>
+<br>
 
-<div class="hidden">
+<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/screenshot-astro2.jpg" alt="AstroWind Theme Screenshot">
 
----
+[![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
+[![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
+[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/onwidget)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/onwidget/astrowind#contributing)
+[![Known Vulnerabilities](https://snyk.io/test/github/onwidget/astrowind/badge.svg?style=flat-square)](https://snyk.io/test/github/onwidget/astrowind)
+[![Stars](https://img.shields.io/github/stars/onwidget/astrowind.svg?style=social&label=stars&maxAge=86400&color=ff69b4)](https://github.com/onwidget/astrowind)
+[![Forks](https://img.shields.io/github/forks/onwidget/astrowind.svg?style=social&label=forks&maxAge=86400&color=ff69b4)](https://github.com/onwidget/astrowind)
 
-## Table of Contents
+<br>
 
-<details><summary>Click to expand</summary>
+<details open>
+<summary>Table of Contents</summary>
 
-- [Table of Contents](#table-of-contents)
-- [🕹 Demo pages](#-demo-pages)
-- [🌀 Built with Flowbite](#-built-with-flowbite)
-- [💨 Tailwind CSS utility classes](#-tailwind-css-utility-classes)
-- [📊 15 example pages](#-15-example-pages)
-- [🧱 Advanced components](#-advanced-components)
-- [📚 Flowbite documentation](#-flowbite-documentation)
-- [👨‍🚀 Development](#-development)
-  - [⚙️ Workflow](#️-workflow)
-  - [🚀 Quick start](#-quick-start)
-  - [Project Structure](#project-structure)
-  - [🛠 Tools](#-tools)
-- [Browser Support](#browser-support)
-- [Resources](#resources)
-  - [JavaScript Frameworks](#javascript-frameworks)
-  - [Back-end Frameworks](#back-end-frameworks)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions)
-- [Licensing](#licensing)
-- [Useful Links](#useful-links)
-- [Authors](#authors)
+- [Demo](#demo)
+- [Getting started](#getting-started)
+  - [Project structure](#project-structure)
+  - [Commands](#commands)
+  - [Configuration](#configuration)
+  - [Deploy](#deploy)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Related Projects](#related-projects)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
 
 </details>
 
----
+<br>
 
-</div>
+## Demo
 
-<div class="hidden">
+📌 [https://astrowind.vercel.app/](https://astrowind.vercel.app/)
 
-## 🕹 Demo pages
+<br>
 
-| Dashboard                                                                                                                                                             | Stacked Layout                                                                                                                                                                            | Products (CRUD)                                                                                                                                                                                |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Dashboard](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/homepage.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/) | [![Stacked Layout](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/stacked.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/layouts/stacked/) | [![Products (CRUD)](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/products-crud.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/crud/products/) |
+## Getting started
 
-| Users (CRUD)                                                                                                                                                                     | Settings                                                                                                                                                                      | Pricing page                                                                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Users (CRUD)](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/users.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/crud/users/) | [![Settings](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/settings.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/settings/) | [![Pricing page](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/pricing.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/pages/pricing/) |
+**AstroWind** tries to give you quick access to creating a website using [Astro 2.0](https://astro.build/blog/astro-2/) + [Tailwind CSS](https://tailwindcss.com/). It's a free theme focuses on simplicity, good practices and high performance.
 
-| Login page                                                                                                                                                                                 | Register page                                                                                                                                                                                    | Reset password                                                                                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Login page](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/login.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/authentication/sign-in/) | [![Register page](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/register.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/authentication/sign-up/) | [![Reset password](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/reset-password.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/authentication/reset-password/) |
+Very little vanilla javascript is used only to provide basic functionality so that each developer decides which framework (React, Vue, Svelte, Solid JS...) to use and how to approach their goals..
 
-| Forgot password                                                                                                                                                                                                   | Profile lock                                                                                                                                                                                             | Maintenance page                                                                                                                                                                                  |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Forgot password](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/forgot-password.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/authentication/forgot-password/) | [![Profile lock](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/profile-lock.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/authentication/profile-lock/) | [![Maintenance page](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/maintenance.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/pages/maintenance/) |
+### Project structure
 
-| 404 not found                                                                                                                                                                  | 500 server error                                                                                                                                                                  | Playground                                                                                                                                                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![404 not found](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/404.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/pages/404/) | [![500 server error](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/500.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/pages/500/) | [![Playground](https://flowbite.s3.amazonaws.com/templates/flowbite-admin-dashboard/github/playground.jpg)](http://themesberg.github.io/flowbite-astro-admin-dashboard/playground/sidebar/) |
-
-- [Live Preview](http://themesberg.github.io/flowbite-astro-admin-dashboard/)
-</div>
-
-## 🌀 Built with Flowbite
-
-The interactive components such as the navbars, modals, drawers, and tooltips are all based on the popular [open-source component library called Flowbite](https://flowbite.com/) which enables us to use these elements by creating more complex set of pages and widgets inside a fully-fledged admin dashboard template.
-
-## 💨 Tailwind CSS utility classes
-
-All of the pages, widgets, and components are solely based on the utility-first classes from Tailwind CSS and it is compatible with the latest `v3.x` of the technology by automatically purging all of the classes based on the template paths.
-
-## 📊 15 example pages
-
-Get started with 15 advanced examples pages including two different layouts of a dashboard's homepage full of charts widgets, tables, datepickers, and statistics and also with two CRUD layout pages for products, users, a settings page, authentication pages for login and register and even custom 404 and 500 error pages.
-
-## 🧱 Advanced components
-
-This admin dashboard contains many advanced components both from Flowbite but also from other third-party libraries such as ApexCharts which have been customly tailored with Tailwind CSS classes and designed based on the [Flowbite Design System](https://flowbite.com/figma/).
-
-## 📚 Flowbite documentation
-
-If you want to use this project we recommend to also [study the component library](https://flowbite.com/docs/getting-started/introduction/) that we used to build this dashboard because you can use even more components from that library to enhance the examples that we've coded here already.
-
-## 👨‍🚀 Development
-
-### ⚙️ Workflow
-
-This product is built using the following widely used technologies:
-
-- Tailwind CSS: [tailwindcss.com](https://tailwindcss.com/)
-- Flowbite: [flowbite.com](http://flowbite.com/)
-- Astro: [astro.build](https://astro.build/)
-
-### 🚀 Quick start
-
-1. Clone this repository or download the ZIP file
-2. Make sure that you have **Node.js** and NPM, PNPM or Yarn installed
-3. Install the project dependencies from the `package.json` file:
-
-```sh
-pnpm install
-# or
-npm install
-# or
-yarn
-```
-
-_PNPM is the package manager of choice for illustration, but you can use what you want._
-
-1. Launch the Astro local development server on `localhost:2121` by running the following command:
-
-```sh
-pnpm run dev
-```
-
-You can also build the project and get the distribution files inside the `dist/` folder by running:
-
-```sh
-pnpm run build
-```
-
-Then, you can preview the generated build with a local web server:
-
-```sh
-pnpm run preview
-```
-
-For deployment, see the GitHub workflow, where you can plug your target (pre-configured for GitHub pages).
-See [docs.astro.build/en/guides/deploy](https://docs.astro.build/en/guides/deploy)
-
-Website is configured for static deployment, but you can flip it to **Server-Side rendering** by simply
-uncommenting `output: "server"` in the `./astro.config.mjs`.
-
----
-
-### Project Structure
-
-After cloning this repository, you'll find the following (simplified) structure:
-
-```sh
-🛬
-├── 💧 data
-│   └── **/*.json                        # Satic data sources for REST etc.
-│
-└── src
-    │
-    ├── 🧱 app
-    │   └── **/*.astro                   # Application-wide components
-    │
-    ├── 🌠 assets
-    │   └── **/*.{svg,…}                 # Transformable assets
-    │
-    ├── 🧱 components
-    │   └── **/*.astro                   # Simple, atomic UI elements
-    │
-    ├── 📚 lib
-    │   └── **/*.ts                      # Utilities (Databases, APIs…)
-    │
-    ├── 🧱 modules
-    │   └── **/*.astro                   # Complex views made of elements
-    │
-    ├── 📑 pages
-    │   ├── **/*.astro                   # File-based client routes
-    │   │
-    │   └── 🌐 api
-    │        └── [...entities].ts        # Catch-all endpoint for CRUD ops.
-    │
-    ├── 🚀 services
-    │   └── *.ts                         # Server-side CRUD operations
-    │
-    └── 📐 types
-        └── *.ts                         # Data entities typings
+Inside AstroWind template, you'll see the following folders and files:
 
 ```
+/
+├── public/
+│   ├── _headers
+│   └── robots.txt
+├── src/
+│   ├── assets/
+│   │   ├── favicons/
+│   │   ├── images/
+│   │   └── styles/
+│   │       └── tailwind.css
+│   ├── components/
+│   │   ├── blog/
+│   │   ├── common/
+│   │   ├── ui/
+│   │   ├── widgets/
+│   │   │   ├── Header.astro
+│   │   │   └── ...
+│   │   ├── CustomStyles.astro
+│   │   ├── Favicons.astro
+│   │   └── Logo.astro
+│   ├── content/
+│   │   ├── post/
+│   │   │   ├── post-slug-1.md
+│   │   │   ├── post-slug-2.mdx
+│   │   │   └── ...
+│   │   └-- config.ts
+│   ├── layouts/
+│   │   ├── BaseLayout.astro
+│   │   ├── MarkdownLayout.astro
+│   │   └── PageLayout.astro
+│   ├── pages/
+│   │   ├── [...blog]/
+│   │   │   ├── [category]/
+│   │   │   ├── [tag]/
+│   │   │   ├── [...page].astro
+│   │   │   └── index.astro
+│   │   ├── index.astro
+│   │   ├── 404.astro
+│   │   ├-- rss.xml.ts
+│   │   └── ...
+│   ├── utils/
+│   ├── config.yaml
+│   └── navigation.js
+├── package.json
+├── astro.config.mjs
+└── ...
+```
 
-### 🛠 Tools
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-Efforts have been put on fast **onboarding** and **developer experience**.
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-This project comes with extensive support for TypeScript, Astro, Tailwind, and VS Code.  
-It is configured with sensible defaults, a bit of opinions, plus some tricks to make it plays nice together.
+Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
 
-- **TypeScript**: _strictest_ Astro's settings. Full-stack, type-safe code base
-- **ESLint**: featuring `astro-eslint-parser` + `eslint-plugin-astro`
-- **Prettier**: featuring `prettier-plugin-astro` (bundled with `astro`)
-- **Editorconfig**: conforming with prettier
-- **VS Code**: extensions recommendations, tooling settings
-- **Tailwind**: Astro integration (using Vite and PostCSS)
-- **Flowbite**: dependencies (core, typography), settings
-- **GitHub**: a [pre-configured workflow](https://github.com/themesberg/flowbite-astro-admin-dashboard/tree/main/.github/workflows) for deployment (using PNPM cache)
-- **Sandboxes**: project is tested against and fully compatible with web containers
+[![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/astrowind/tree/main)
 
-Feel free to hack those settings to cater for your own needs.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Update `config.mjs` and contents. Have fun!
 
-<div align="center">
-<a href="https://user-images.githubusercontent.com/603498/224380239-0aff9ec2-3436-4fca-a842-230f29dd9677.png"><img class="w-full rounded-md overflow-hidden" alt="ide-tooling" src="https://user-images.githubusercontent.com/603498/224380239-0aff9ec2-3436-4fca-a842-230f29dd9677.png"></a>
-<a href="https://user-images.githubusercontent.com/603498/224374764-dd1f98f8-df45-43c0-97f7-4b89ec427628.png"><img class="w-full rounded-md overflow-hidden" alt="gh-workflow" src="https://user-images.githubusercontent.com/603498/224374764-dd1f98f8-df45-43c0-97f7-4b89ec427628.png"></a>
-<a href="https://user-images.githubusercontent.com/603498/224353577-51262536-742a-4204-b85f-3f83c209697d.png"><img class="w-full rounded-md overflow-hidden" alt="gh-workflow" src="https://user-images.githubusercontent.com/603498/224353577-51262536-742a-4204-b85f-3f83c209697d.png"></a>
-</div>
+<br>
 
-## Browser Support
+### Commands
 
-At present, we officially aim to support the last two versions of the following browsers:
+All commands are run from the root of the project, from a terminal:
 
-<div align="center" class="flex justify-between w-full">
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
-</div>
+| Command               | Action                                             |
+| :-------------------- | :------------------------------------------------- |
+| `npm install`         | Installs dependencies                              |
+| `npm run dev`         | Starts local dev server at `localhost:3000`        |
+| `npm run build`       | Build your production site to `./dist/`            |
+| `npm run preview`     | Preview your build locally, before deploying       |
+| `npm run format`      | Format codes with Prettier                         |
+| `npm run lint:eslint` | Run Eslint                                         |
+| `npm run astro ...`   | Run CLI commands like `astro add`, `astro preview` |
 
-## Resources
+<br>
 
-- Live preview: <https://themesberg.github.io/flowbite-astro-admin-dashboard/>
+### Configuration
 
-- Flowbite documentation: <https://flowbite.com/docs/getting-started/introduction/>
-- Tailwind CSS documentation: <https://tailwindcss.com/>
-- License Agreement: <https://flowbite.com/docs/getting-started/license/>
-- Issues: [Github Issues Page](https://github.com/themesberg/flowbite-admin-dashboard/issues)
+Basic configuration file: `./src/config.yaml`
 
-### JavaScript Frameworks
+```yaml
+site:
+  name: AstroWind
+  site: 'https://astrowind.vercel.app'
+  base: '/' # Change this if you need to deploy to Github Pages, for example
+  trailingSlash: false # Generate permalinks with or without "/" at the end
 
-Here's a list of compatible technologies and guides for Flowbite and Tailwind CSS:
+  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
 
-The awesome open-source community also built and currently maintains the following standalone libraries for React, Vue, Svelte, and Angular:
+# Default SEO metadata
+metadata:
+  title:
+    default: AstroWind
+    template: '%s — AstroWind'
+  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    siteName: AstroWind
+    images:
+      - url: '~/assets/images/default.jpg'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: '@onwidget'
+    site: '@onwidget'
+    cardType: summary_large_image
 
-- [🌀 Flowbite React Library](https://github.com/themesberg/flowbite-react)
-- [🍀 Flowbite Vue Library](https://github.com/themesberg/flowbite-vue)
-- [🎸 Flowbite Svelte Library](https://github.com/themesberg/flowbite-svelte)
-- [📕 Flowbite Angular Library](https://github.com/themesberg/flowbite-angular)
+i18n:
+  language: en
+  textDirection: ltr
 
-We also wrote integration guides for the following front-end frameworks and libraries:
+apps:
+  blog:
+    isEnabled: true
+    postsPerPage: 6
 
-- [📝 Flowbite with React guide](https://flowbite.com/docs/getting-started/react/)
-- [📝 Flowbite with Next.js guide](https://flowbite.com/docs/getting-started/next-js/)
-- [📝 Flowbite with Vue guide](https://flowbite.com/docs/getting-started/vue/)
-- [📝 Flowbite with Nuxt.js guide](https://flowbite.com/docs/getting-started/nuxt-js/)
-- [📝 Flowbite with Svelte guide](https://flowbite.com/docs/getting-started/svelte/)
+    post:
+      isEnabled: true
+      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      robots:
+        index: true
 
-### Back-end Frameworks
+    list:
+      isEnabled: true
+      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      robots:
+        index: true
 
-Flowbite has a great integration with most of the back-end frameworks because it relies on vanilla JavaScript:
+    category:
+      isEnabled: true
+      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      robots:
+        index: true
 
-- [📚 Using Flowbite with Laravel](https://flowbite.com/docs/getting-started/laravel/)
-- [🚊 Using Flowbite with Ruby on Rails 7](https://flowbite.com/docs/getting-started/rails/)
-- [🐸 Using Flowbite with Django](https://flowbite.com/docs/getting-started/django/)
-- [🌶 Using Flowbite with Flask](https://flowbite.com/docs/getting-started/flask/)
+    tag:
+      isEnabled: true
+      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      robots:
+        index: false
 
-## Reporting Issues
+analytics:
+  vendors:
+    googleAnalytics:
+      isEnabled: false
+      id: null # or "G-XXXXXXXXXX"
 
-We use GitHub Issues as the official bug tracker for Flowbite Admin Dashboard. Here are some advices for our users that want to report an issue:
+ui:
+  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+```
 
-1. Make sure that you are using the latest version of Flowbite Admin Dashboard. Check the CHANGELOG from your dashboard on the [GitHub releases page](https://github.com/themesberg/flowbite-admin-dashboard/releases).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+<br>
 
-## Technical Support or Questions
+### Deploy
 
-If you have questions or need help integrating the product please [contact us](https://flowbite.com/contact/) instead of opening an issue.
+#### Deploy to production (manual)
 
-## Licensing
+You can create an optimized production build with:
 
-- Copyright 2019-2023 Bergside Inc. (https://flowbite.com)
-- Open-source under the [MIT License](https://github.com/themesberg/flowbite-admin-dashboard/blob/main/LICENSE)
+```shell
+npm run build
+```
 
-## Useful Links
+Now, your website is ready to be deployed. All generated files are located at
+`dist` folder, which you can deploy the folder to any hosting service you
+prefer.
 
-- 📚 [Flowbite Library](https://flowbite.com/) - Open-source components built with Tailwind CSS
-- 🎨 [Flowbite Figma](https://flowbite.com/figma/) - Design system built for Figma
-- 🧱 [Flowbite Blocks](https://flowbite.com/blocks/) - Building sections for website and applications
-- 💎 [Flowbite Pro](https://flowbite.com/pro/) - A larger collection of the open-source version of the latter three
+#### Deploy to Netlify
 
-## Authors
+Clone this repository on own GitHub account and deploy to Netlify:
 
-- [Julian Cataldo](https://twitter.com/Julian_Cataldo)
-- [Zoltán Szőgyényi](https://twitter.com/zoltanszogyenyi)
-- [Robert Tanislav](https://twitter.com/roberttanislav)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/astrowind)
+
+#### Deploy to Vercel
+
+Clone this repository on own GitHub account and deploy to Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fastrowind)
+
+<br>
+
+## Frequently Asked Questions
+
+- Why?
+-
+-
+
+<br>
+
+## Related projects
+
+- [TailNext](https://tailnext.vercel.app/) - Free template using Next.js 13 and Tailwind CSS with the new App Router.
+- [Qwind](https://qwind.pages.dev/) - Free template to make your website using Qwik + Tailwind CSS.
+
+## Contributing
+
+If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
+That would be very useful for all of us and we would be happy to listen and take action.
+
+## Acknowledgements
+
+Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/astrowind/graphs/contributors).
+
+## License
+
+**AstroWind** is licensed under the MIT license — see the [LICENSE](./LICENSE.md) file for details.

@@ -1,10 +1,3 @@
-/// <reference types="astro/client" />
-
-// https://docs.astro.build/en/guides/environment-variables/#intellisense-for-typescript
-interface ImportMetaEnv {
-	readonly SITE: string;
-}
-
-interface ImportMeta {
-	readonly env: ImportMetaEnv;
-}
+// eslint-disable-next-line @typescript-eslint/triple-slash-reference
+/// <reference path="../.astro/types.d.ts" />
+/// <reference types="@astrojs/image/client" />

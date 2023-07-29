@@ -1,33 +1,92 @@
+import path from 'path';
+import { fileURLToPath } from 'url';
+
 import { defineConfig } from 'astro/config';
 
-import netlify from '@astrojs/netlify/edge-functions';
-
-import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
+import sitemap from '@astrojs/sitemap';
+import image from '@astrojs/image';
+import mdx from '@astrojs/mdx';
+import icon from 'astro-icon';
+import partytown from '@astrojs/partytown';
+import compress from 'astro-compress';
+import { readingTimeRemarkPlugin } from './src/utils/frontmatter.mjs';
 
-const DEV_PORT = 2121;
+import { SITE_CONFIG, ANALYTICS_CONFIG } from './src/utils/config.ts';
 
-// https://astro.build/config
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const whenExternalScripts = (items = []) =>
+  ANALYTICS_CONFIG.vendors.googleAnalytics.isEnabled
+    ? Array.isArray(items)
+      ? items.map((item) => item())
+      : [items()]
+    : [];
+
 export default defineConfig({
-	site: process.env.CI
-		? 'https://blazed.tel'
-		: `http://localhost:${DEV_PORT}`,
-	base: process.env.CI ? '/flowbite-astro-admin-dashboard' : undefined,
+  site: SITE_CONFIG.site,
+  base: SITE_CONFIG.base,
+  trailingSlash: SITE_CONFIG.trailingSlash ? 'always' : 'never',
 
-	//output: 'server',
+  output: 'static',
 
-	/* Like Vercel, Netlify,… Mimicking for dev. server */
-	// trailingSlash: 'always',
-	adapter: netlify(),
+  integrations: [
+    tailwind({
+      config: {
+        applyBaseStyles: false,
+      },
+    }),
+    sitemap(),
+    image({
+      serviceEntryPoint: '@astrojs/image/sharp',
+    }),
+    mdx(),
+    icon({
+      include: {
+        tabler: ['*'],
+        'flat-color-icons': [
+          'template',
+          'gallery',
+          'approval',
+          'document',
+          'advertising',
+          'currency-exchange',
+          'voice-presentation',
+          'business-contact',
+          'database',
+        ],
+        ri: ['twitter-fill', 'facebook-box-fill', 'linkedin-box-fill', 'whatsapp-fill', 'mail-fill'],
+      },
+    }),
 
-	server: {
-		/* Dev. server only */
-		port: DEV_PORT,
-	},
+    ...whenExternalScripts(() =>
+      partytown({
+        config: { forward: ['dataLayer.push'] },
+      })
+    ),
 
-	integrations: [
-		//
-		sitemap(),
-		tailwind(),
-	],
+    compress({
+      css: true,
+      html: {
+        removeAttributeQuotes: false,
+      },
+      img: false,
+      js: true,
+      svg: false,
+
+      logger: 1,
+    }),
+  ],
+
+  markdown: {
+    remarkPlugins: [readingTimeRemarkPlugin],
+  },
+
+  vite: {
+    resolve: {
+      alias: {
+        '~': path.resolve(__dirname, './src'),
+      },
+    },
+  },
 });
